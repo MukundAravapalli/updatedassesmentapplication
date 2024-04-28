@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 800px;
+  min-width: 800px;
+  background-color: #fefefe;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2em;
+  color: #2d3436;
+  margin: 20px 0 30px;
+}
+
+.card {
+  position: relative;
+  padding: 25px 15px;
+  background-color: #ffffff;
+  margin: 40px 0;
+  height: 100%;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: left;
+}
+
+.top {
+  height:fit-content;
+  width: 100%;
+  background-color: #20558A;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.name {
+  font-size: 20px;
+  color: #f7f7f7;
+  display:flex;
+  margin: 20px 20px;
+}
+
+.bottom {
+  margin-top: 100px;
+  height: fit-content;
+}
+
+.info {
+  margin: 20px 0;
+  color: #151515;
+}
+
+.term{
+  font-weight: bold;
+}
+
+.pages button { 
+  width: 40px; height: 40px;
+  font-family: inherit; 
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: transparent;
+  color: black;
+  border-color: #eee;
+}
+
+.pages button.active { 
+  font-weight: 900;
+  background: #20558A;
+  color: rgb(243, 238, 238);
+  border-color: #eeeeee;
+}
+
